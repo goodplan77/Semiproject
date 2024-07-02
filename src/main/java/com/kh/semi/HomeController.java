@@ -23,6 +23,7 @@ public class HomeController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		
+//		가나다라
 		application.setAttribute("contextPath", application.getContextPath());
 		return "home";
 	}
